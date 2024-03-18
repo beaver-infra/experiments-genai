@@ -1,0 +1,10 @@
+ray[data]
+pathlib
+pandas==2.1.4
+llama-index
+llama-index-readers-file
+llama-index-embeddings-huggingface
+pymilvus
+milvus
+llama-index-vector-stores-milvus
+llama-parse
