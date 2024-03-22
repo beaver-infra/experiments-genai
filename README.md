@@ -6,12 +6,22 @@ List of experiments on Gen AI ecosystem
 
 ### Install
 
+1. Install dependencies
+
 ```console
 create -m venv .venv
 source .venv/bin/activate
 
 pip3 install -r requirements.txt
 ```
+
+2. Install & run LLM model (llama2) on local
+
+[Download Ollama](https://ollama.com/) and run `ollama run llama2` on terminal. Click [more info](https://ollama.com/library/llama2) to run llama2.
+
+3. Install & run LLM model (codellama) on local
+
+[Download Ollama](https://ollama.com/) and run `ollama run codellama` on terminal. Click [more info](https://ollama.com/library/codellama) to run codellama.
 
 #### Install Milvus
 
@@ -32,6 +42,7 @@ Ensure Milvus vector store is up and running before executing Milvus dependent e
 | rag_pdf_5.py | LlamaIndex + Pinecone | RAG | Coming Soon |
 | rag_pdf_6.py | LlamaIndex + Qdrant | RAG | Coming Soon |
 | rag_pdf_7.py | LlamaIndex + Ray + Milvus | RAG | Coming Soon |
+| rag_pdf_8.py | LlamaIndex + Ray + Milvus | RAG | Coming Soon |
 
 ### How to Run?
 
