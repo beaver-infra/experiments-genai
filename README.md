@@ -15,13 +15,11 @@ source .venv/bin/activate
 pip3 install -r requirements.txt
 ```
 
-2. Install & run LLM model (llama2) on local
+2. Install & run LLM model on local using Ollama. Visit download page [(https://ollama.com/](https://ollama.com/)
 
-[Download Ollama](https://ollama.com/) and run `ollama run llama2` on terminal. Click [more info](https://ollama.com/library/llama2) to run llama2.
+    2.1 **Llama2** - run `ollama run llama2` on terminal. Visit for [more info on llama2](https://ollama.com/library/llama2).
 
-3. Install & run LLM model (codellama) on local
-
-[Download Ollama](https://ollama.com/) and run `ollama run codellama` on terminal. Click [more info](https://ollama.com/library/codellama) to run codellama.
+    2.2 **Codellama** - run `ollama run codellama` on terminal. Visit for [more info on codellama](https://ollama.com/library/codellama).
 
 #### Install Milvus
 
