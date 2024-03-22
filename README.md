@@ -23,11 +23,11 @@ Ensure Milvus vector store is up and running before executing Milvus dependent e
 
 ## Table of Content
 
-| File / Folder name | Framework(s) | Pipeline | Comments |
+| File / Folder name | Framework(s) | Optimization / FineTuning | Pipeline |
 |:---|:---|:---|:---|
-| rag_pdf_1.py | LlamaIndex + Milvus | RAG | (Load PDF Dir, Extract data and index in naive way, Embed the index into vector store, User queries ) |
-| rag_pdf_2.py | LlamaIndex | RAG | (Load PDF Dir, Extract data with Sentence window, Embed the index into local storage, User queries |
-| rag_pdf_3.py | LlamaIndex + Milvus | RAG | (Load PDF Dir, Extract data with Sentence window, Embed the index into vector store, User queries |
+| rag_pdf_1.py | LlamaIndex + Milvus | RAG | Load PDF Dir, Extract data and index in naive way, Embed the index into vector store, User queries |
+| rag_pdf_2.py | LlamaIndex | RAG | Load PDF Dir, Extract data with Sentence window, Embed the index into local storage, User queries |
+| rag_pdf_3.py | LlamaIndex + Milvus | RAG | Load PDF Dir, Extract data with Sentence window, Embed the index into vector store, User queries |
 | rag_pdf_4.py | LlamaIndex + Chroma | RAG | Coming Soon |
 | rag_pdf_5.py | LlamaIndex + Pinecone | RAG | Coming Soon |
 | rag_pdf_6.py | LlamaIndex + Qdrant | RAG | Coming Soon |
