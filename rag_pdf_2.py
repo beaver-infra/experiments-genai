@@ -1,6 +1,5 @@
 from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, StorageContext, Settings, load_index_from_storage, ServiceContext, Document
 from llama_index.core.embeddings import resolve_embed_model
-from llama_index.vector_stores.milvus import MilvusVectorStore
 from llama_index.llms.ollama import Ollama
 
 from llama_index.core.node_parser import SentenceWindowNodeParser, HierarchicalNodeParser, get_leaf_nodes
@@ -105,31 +104,3 @@ print('\n')
 print("sentence_response: ")
 print(sentence_response)
 print('\n')
-
-# print("Single document: ", documents[0])
-
-# vector_store = MilvusVectorStore(
-#   dim=384,
-#   overwrite=True
-# )
-# storage_context = StorageContext.from_defaults(vector_store=vector_store)
-# index = VectorStoreIndex.from_documents(
-#   documents, storage_context=storage_context
-# )
-
-# query_engine = index.as_query_engine()
-
-# response = query_engine.query("Who is father of Quantum mechanics?")
-# print("Response: ", response)
-# for node in response.source_nodes:
-#   print(f"Metadata {node.node.extra_info}")
-#   print(f"Score {node.score:.3f}")
-# print("\n\n")
-
-# response = query_engine.query("How is Quantum Physics is different from Classical Physics?")
-# print("Response: ", response)
-# for node in response.source_nodes:
-#   print(f"Metadata {node.node.extra_info}")
-#   print(f"Score {node.score:.3f}")
-# print("\n\n")
-
